@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Miaoer</string>
+		<key>avatarUrl</key>
+		<string>1.jpg</string>
+		<key>introduction</key>
+		<string>Years of software design and development experience, familiar with server-side and client-side development, especially those with deep accumulation in iOS development. </string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kaoru</string>
+		<key>avatarUrl</key>
+		<string>2.jpg</string>
+		<key>introduction</key>
+		<string>Master UESTC computer science engineering, Changhong system architects, ten years of experience in Java project development, proficient in Java, Python, GoLang, Scala.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Tom Xu</string>
+		<key>avatarUrl</key>
+		<string>3.jpg</string>
+		<key>introduction</key>
+		<string>CSDN blog expert, for many years mainly engaged in the development and research of media streaming, network communications.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jerry Lee</string>
+		<key>avatarUrl</key>
+		<string>4.jpg</string>
+		<key>introduction</key>
+		<string>Programmers interested in algorithm research, he is super popular CSDN algorithm column blogger (blog), but also &quot;algorithm fun,&quot; a book author.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Stephon Lee</string>
+		<key>avatarUrl</key>
+		<string>5.jpg</string>
+		<key>introduction</key>
+		<string>IOS has led the development of a number of projects and products, with rich experience in product development and project combat experience. </string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rose</string>
+		<key>avatarUrl</key>
+		<string>6.jpg</string>
+		<key>introduction</key>
+		<string>He graduated from the University of Science and Technology of China, csdn blog expert, 2014 Top Ten blog star. Android engineer, worked in Tencent.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jake</string>
+		<key>avatarUrl</key>
+		<string>7.jpg</string>
+		<key>introduction</key>
+		<string>Hujiang network software engineer. Love to share, love geeks programming monster, Coding road is bound to be painful.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Berry</string>
+		<key>avatarUrl</key>
+		<string>8.jpg</string>
+		<key>introduction</key>
+		<string>UMLChina chief expert. In 1999, or a programmer, in his spare time he created UMLChina, painstaking research needs and design skills.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Apple</string>
+		<key>avatarUrl</key>
+		<string>9.jpg</string>
+		<key>introduction</key>
+		<string>Years of software design and development experience, familiar with server-side and client-side development, especially those with deep accumulation in iOS development.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Binger</string>
+		<key>avatarUrl</key>
+		<string>10.jpg</string>
+		<key>introduction</key>
+		<string>July 2009, graduated from Hainan University Communication Engineering bachelor&apos;s degree in engineering. </string>
+	</dict>
+</array>
+</plist>
