@@ -65,8 +65,9 @@ __KCRefreshFooter__：刷新尾部控件抽象，继承于KCRefreshComponent，�
 
 	    }];
 }
-```
-__效果__
+```   
+__效果__   
+
 ![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/PagingRefresh.gif?raw=true)   
 ### 类似于网易云阅读的分页刷新
 和上面的分页刷新效果不同的是无论是下拉刷新还是上拉刷新均不会弹回到原来的位置而是直接执行翻页效果，并此类刷新不像普通的刷新，它只有两种状态切换。   
@@ -127,6 +128,7 @@ __效果__
 }
 ```   
 __效果__   
+
 ![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/VerticalPagingRefresh.gif?raw=true)
 
 
