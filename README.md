@@ -10,7 +10,7 @@ __KCRefreshFooter__：刷新尾部控件抽象，继承于KCRefreshComponent，�
 ****
 以上三个类是实现刷新的基类，非特殊情况下如果有个性需求只需要继承并实现KCRefreshHeader或者KCRefreshFooter，除非二者不能满足需求才需要直接继承KCRefreshComponent。另外在代码中已经默认实现了两种分页刷新效果，这也是目前市面上除了普通刷新效果之外的两种常见效果（后面会把普通刷新效果补充上）。   
 ## 示例
-### 类似于淘宝头条的分页刷新
+### 1. 类似于淘宝头条的分页刷新
 不同于普通刷新效果的是上拉刷新后不是加载更多而是弹回到原来的位置并执行其他操作，并且提供了类似于淘宝的动画旋转效果。   
 ```objc
 - (void)setupUI {
@@ -69,7 +69,7 @@ __KCRefreshFooter__：刷新尾部控件抽象，继承于KCRefreshComponent，�
 __效果__   
 
 ![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/PagingRefresh.gif?raw=true)   
-### 类似于网易云阅读的分页刷新
+### 2. 类似于网易云阅读的分页刷新
 和上面的分页刷新效果不同的是无论是下拉刷新还是上拉刷新均不会弹回到原来的位置而是直接执行翻页效果，并此类刷新不像普通的刷新，它只有两种状态切换。   
 ```objc
 - (void)setupUI {
