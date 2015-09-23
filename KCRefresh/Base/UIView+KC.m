@@ -110,7 +110,7 @@
 }
 @end
 
-@implementation UILabel(TM)
+@implementation UILabel(KC)
 
 -(instancetype)initWithFrame:(CGRect)frame textColor:(UIColor *)color fontSize:(CGFloat)fontSize{
     if (self=[self initWithFrame:frame]) {

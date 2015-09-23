@@ -64,7 +64,7 @@
 /**
  *  UILabel分类扩展
  */
-@interface UILabel (TM)
+@interface UILabel (KC)
 
 /**
  *  创建UILabel对象

@@ -8,19 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		913E71491BB14C190027ECC7 /* KCVerticalPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E71481BB14C190027ECC7 /* KCVerticalPagingViewController.m */; settings = {ASSET_TAGS = (); }; };
-		913E714C1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E714B1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
-		913E71521BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E71511BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.m */; settings = {ASSET_TAGS = (); }; };
 		913E71551BB170660027ECC7 /* KCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E71541BB170660027ECC7 /* KCCardView.m */; settings = {ASSET_TAGS = (); }; };
-		913E71581BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E71571BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
 		913E715B1BB180BE0027ECC7 /* KCMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913E715A1BB180BE0027ECC7 /* KCMainTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		914491BD1BAE9981004F7EA5 /* UIView+KC.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491AD1BAE9981004F7EA5 /* UIView+KC.m */; settings = {ASSET_TAGS = (); }; };
-		914491BE1BAE9981004F7EA5 /* KCPagingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491B01BAE9981004F7EA5 /* KCPagingIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
-		914491BF1BAE9981004F7EA5 /* KCPagingRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491B21BAE9981004F7EA5 /* KCPagingRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
-		914491C01BAE9981004F7EA5 /* KCPagingRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491B41BAE9981004F7EA5 /* KCPagingRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
-		914491C11BAE9981004F7EA5 /* KCRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491B61BAE9981004F7EA5 /* KCRefreshComponent.m */; settings = {ASSET_TAGS = (); }; };
-		914491C21BAE9981004F7EA5 /* KCRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491B81BAE9981004F7EA5 /* KCRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
-		914491C31BAE9981004F7EA5 /* KCRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491BA1BAE9981004F7EA5 /* KCRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
-		914491C41BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491BC1BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.m */; settings = {ASSET_TAGS = (); }; };
 		914491CC1BAEA723004F7EA5 /* KCPagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491CB1BAEA723004F7EA5 /* KCPagingViewController.m */; settings = {ASSET_TAGS = (); }; };
 		914491D21BAEA756004F7EA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491D01BAEA756004F7EA5 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		914491D31BAEA756004F7EA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914491D11BAEA756004F7EA5 /* main.m */; settings = {ASSET_TAGS = (); }; };
@@ -37,41 +26,29 @@
 		914491ED1BAEAB1C004F7EA5 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 914491E31BAEAB1C004F7EA5 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
 		914491EE1BAEAB1C004F7EA5 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 914491E41BAEAB1C004F7EA5 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
 		914491EF1BAEAB1C004F7EA5 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 914491E51BAEAB1C004F7EA5 /* 10.jpg */; settings = {ASSET_TAGS = (); }; };
-		914491F11BAEBE2A004F7EA5 /* KCFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 914491F01BAEBE2A004F7EA5 /* KCFramework.bundle */; settings = {ASSET_TAGS = (); }; };
 		91768D351BAE937F00B2C7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91768D341BAE937F00B2C7BF /* Assets.xcassets */; };
 		91768D381BAE937F00B2C7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91768D361BAE937F00B2C7BF /* LaunchScreen.storyboard */; };
+		91FB63BF1BB27E31001EC0EA /* UIView+KC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63A71BB27E31001EC0EA /* UIView+KC.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C01BB27E31001EC0EA /* KCFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 91FB63A81BB27E31001EC0EA /* KCFramework.bundle */; settings = {ASSET_TAGS = (); }; };
+		91FB63C11BB27E31001EC0EA /* KCPagingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63AB1BB27E31001EC0EA /* KCPagingIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C21BB27E31001EC0EA /* KCPagingRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63AD1BB27E31001EC0EA /* KCPagingRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C31BB27E31001EC0EA /* KCPagingRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63AF1BB27E31001EC0EA /* KCPagingRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C41BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63B11BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C51BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63B31BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C61BB27E31001EC0EA /* KCRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63B61BB27E31001EC0EA /* KCRefreshComponent.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C71BB27E31001EC0EA /* KCRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63B81BB27E31001EC0EA /* KCRefreshFooter.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C81BB27E31001EC0EA /* KCRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63BA1BB27E31001EC0EA /* KCRefreshHeader.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63C91BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63BC1BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.m */; settings = {ASSET_TAGS = (); }; };
+		91FB63CA1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FB63BE1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		913E71471BB14C190027ECC7 /* KCVerticalPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVerticalPagingViewController.h; sourceTree = "<group>"; };
 		913E71481BB14C190027ECC7 /* KCVerticalPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVerticalPagingViewController.m; sourceTree = "<group>"; };
-		913E714A1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVerticalPagingRefreshHeader.h; sourceTree = "<group>"; };
-		913E714B1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVerticalPagingRefreshHeader.m; sourceTree = "<group>"; };
-		913E71501BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KCVerticalPagingRefresh.h"; sourceTree = "<group>"; };
-		913E71511BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KCVerticalPagingRefresh.m"; sourceTree = "<group>"; };
 		913E71531BB170660027ECC7 /* KCCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCardView.h; sourceTree = "<group>"; };
 		913E71541BB170660027ECC7 /* KCCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCCardView.m; sourceTree = "<group>"; };
-		913E71561BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVerticalPagingRefreshFooter.h; sourceTree = "<group>"; };
-		913E71571BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVerticalPagingRefreshFooter.m; sourceTree = "<group>"; };
 		913E71591BB180BE0027ECC7 /* KCMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMainTableViewController.h; sourceTree = "<group>"; };
 		913E715A1BB180BE0027ECC7 /* KCMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMainTableViewController.m; sourceTree = "<group>"; };
-		914491AC1BAE9981004F7EA5 /* UIView+KC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KC.h"; sourceTree = "<group>"; };
-		914491AD1BAE9981004F7EA5 /* UIView+KC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KC.m"; sourceTree = "<group>"; };
-		914491AF1BAE9981004F7EA5 /* KCPagingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingIndicatorView.h; sourceTree = "<group>"; };
-		914491B01BAE9981004F7EA5 /* KCPagingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingIndicatorView.m; sourceTree = "<group>"; };
-		914491B11BAE9981004F7EA5 /* KCPagingRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingRefreshFooter.h; sourceTree = "<group>"; };
-		914491B21BAE9981004F7EA5 /* KCPagingRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingRefreshFooter.m; sourceTree = "<group>"; };
-		914491B31BAE9981004F7EA5 /* KCPagingRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingRefreshHeader.h; sourceTree = "<group>"; };
-		914491B41BAE9981004F7EA5 /* KCPagingRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingRefreshHeader.m; sourceTree = "<group>"; };
-		914491B51BAE9981004F7EA5 /* KCRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshComponent.h; sourceTree = "<group>"; };
-		914491B61BAE9981004F7EA5 /* KCRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshComponent.m; sourceTree = "<group>"; };
-		914491B71BAE9981004F7EA5 /* KCRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshFooter.h; sourceTree = "<group>"; };
-		914491B81BAE9981004F7EA5 /* KCRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshFooter.m; sourceTree = "<group>"; };
-		914491B91BAE9981004F7EA5 /* KCRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshHeader.h; sourceTree = "<group>"; };
-		914491BA1BAE9981004F7EA5 /* KCRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshHeader.m; sourceTree = "<group>"; };
-		914491BB1BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KCPagingRefresh.h"; sourceTree = "<group>"; };
-		914491BC1BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KCPagingRefresh.m"; sourceTree = "<group>"; };
-		914491C51BAE9F11004F7EA5 /* KCRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCRefresh.h; sourceTree = "<group>"; };
 		914491CA1BAEA723004F7EA5 /* KCPagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingViewController.h; sourceTree = "<group>"; };
 		914491CB1BAEA723004F7EA5 /* KCPagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingViewController.m; sourceTree = "<group>"; };
 		914491CF1BAEA756004F7EA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,11 +69,34 @@
 		914491E31BAEAB1C004F7EA5 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		914491E41BAEAB1C004F7EA5 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 		914491E51BAEAB1C004F7EA5 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
-		914491F01BAEBE2A004F7EA5 /* KCFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KCFramework.bundle; sourceTree = "<group>"; };
 		91768D251BAE937F00B2C7BF /* KCRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91768D341BAE937F00B2C7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91768D371BAE937F00B2C7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91768D391BAE937F00B2C7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FB63A61BB27E31001EC0EA /* UIView+KC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KC.h"; sourceTree = "<group>"; };
+		91FB63A71BB27E31001EC0EA /* UIView+KC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KC.m"; sourceTree = "<group>"; };
+		91FB63A81BB27E31001EC0EA /* KCFramework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KCFramework.bundle; sourceTree = "<group>"; };
+		91FB63AA1BB27E31001EC0EA /* KCPagingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingIndicatorView.h; sourceTree = "<group>"; };
+		91FB63AB1BB27E31001EC0EA /* KCPagingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingIndicatorView.m; sourceTree = "<group>"; };
+		91FB63AC1BB27E31001EC0EA /* KCPagingRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingRefreshFooter.h; sourceTree = "<group>"; };
+		91FB63AD1BB27E31001EC0EA /* KCPagingRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingRefreshFooter.m; sourceTree = "<group>"; };
+		91FB63AE1BB27E31001EC0EA /* KCPagingRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPagingRefreshHeader.h; sourceTree = "<group>"; };
+		91FB63AF1BB27E31001EC0EA /* KCPagingRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPagingRefreshHeader.m; sourceTree = "<group>"; };
+		91FB63B01BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVerticalPagingRefreshFooter.h; sourceTree = "<group>"; };
+		91FB63B11BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVerticalPagingRefreshFooter.m; sourceTree = "<group>"; };
+		91FB63B21BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVerticalPagingRefreshHeader.h; sourceTree = "<group>"; };
+		91FB63B31BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVerticalPagingRefreshHeader.m; sourceTree = "<group>"; };
+		91FB63B41BB27E31001EC0EA /* KCRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefresh.h; sourceTree = "<group>"; };
+		91FB63B51BB27E31001EC0EA /* KCRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshComponent.h; sourceTree = "<group>"; };
+		91FB63B61BB27E31001EC0EA /* KCRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshComponent.m; sourceTree = "<group>"; };
+		91FB63B71BB27E31001EC0EA /* KCRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshFooter.h; sourceTree = "<group>"; };
+		91FB63B81BB27E31001EC0EA /* KCRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshFooter.m; sourceTree = "<group>"; };
+		91FB63B91BB27E31001EC0EA /* KCRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCRefreshHeader.h; sourceTree = "<group>"; };
+		91FB63BA1BB27E31001EC0EA /* KCRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCRefreshHeader.m; sourceTree = "<group>"; };
+		91FB63BB1BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KCPagingRefresh.h"; sourceTree = "<group>"; };
+		91FB63BC1BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KCPagingRefresh.m"; sourceTree = "<group>"; };
+		91FB63BD1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+KCVerticalPagingRefresh.h"; sourceTree = "<group>"; };
+		91FB63BE1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+KCVerticalPagingRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,53 +110,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		914491AA1BAE9981004F7EA5 /* KCRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				914491F01BAEBE2A004F7EA5 /* KCFramework.bundle */,
-				914491AB1BAE9981004F7EA5 /* Base */,
-				914491AE1BAE9981004F7EA5 /* KCPagingRefresh */,
-				914491B51BAE9981004F7EA5 /* KCRefreshComponent.h */,
-				914491B61BAE9981004F7EA5 /* KCRefreshComponent.m */,
-				914491B71BAE9981004F7EA5 /* KCRefreshFooter.h */,
-				914491B81BAE9981004F7EA5 /* KCRefreshFooter.m */,
-				914491B91BAE9981004F7EA5 /* KCRefreshHeader.h */,
-				914491BA1BAE9981004F7EA5 /* KCRefreshHeader.m */,
-				914491BB1BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.h */,
-				914491BC1BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.m */,
-				913E71501BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.h */,
-				913E71511BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.m */,
-				914491C51BAE9F11004F7EA5 /* KCRefresh.h */,
-			);
-			path = KCRefresh;
-			sourceTree = "<group>";
-		};
-		914491AB1BAE9981004F7EA5 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				914491AC1BAE9981004F7EA5 /* UIView+KC.h */,
-				914491AD1BAE9981004F7EA5 /* UIView+KC.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		914491AE1BAE9981004F7EA5 /* KCPagingRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				914491AF1BAE9981004F7EA5 /* KCPagingIndicatorView.h */,
-				914491B01BAE9981004F7EA5 /* KCPagingIndicatorView.m */,
-				914491B11BAE9981004F7EA5 /* KCPagingRefreshFooter.h */,
-				914491B21BAE9981004F7EA5 /* KCPagingRefreshFooter.m */,
-				914491B31BAE9981004F7EA5 /* KCPagingRefreshHeader.h */,
-				914491B41BAE9981004F7EA5 /* KCPagingRefreshHeader.m */,
-				913E714A1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.h */,
-				913E714B1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.m */,
-				913E71561BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.h */,
-				913E71571BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.m */,
-			);
-			path = KCPagingRefresh;
-			sourceTree = "<group>";
-		};
 		914491C61BAEA718004F7EA5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,7 +183,7 @@
 		91768D1C1BAE937F00B2C7BF = {
 			isa = PBXGroup;
 			children = (
-				914491AA1BAE9981004F7EA5 /* KCRefresh */,
+				91FB63A41BB27E31001EC0EA /* KCRefresh */,
 				91768D271BAE937F00B2C7BF /* KCRefreshDemo */,
 				91768D261BAE937F00B2C7BF /* Products */,
 			);
@@ -265,6 +218,54 @@
 				914491CE1BAEA73C004F7EA5 /* Resources */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91FB63A41BB27E31001EC0EA /* KCRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				91FB63A51BB27E31001EC0EA /* Base */,
+				91FB63A81BB27E31001EC0EA /* KCFramework.bundle */,
+				91FB63A91BB27E31001EC0EA /* KCPagingRefresh */,
+				91FB63B41BB27E31001EC0EA /* KCRefresh.h */,
+				91FB63B51BB27E31001EC0EA /* KCRefreshComponent.h */,
+				91FB63B61BB27E31001EC0EA /* KCRefreshComponent.m */,
+				91FB63B71BB27E31001EC0EA /* KCRefreshFooter.h */,
+				91FB63B81BB27E31001EC0EA /* KCRefreshFooter.m */,
+				91FB63B91BB27E31001EC0EA /* KCRefreshHeader.h */,
+				91FB63BA1BB27E31001EC0EA /* KCRefreshHeader.m */,
+				91FB63BB1BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.h */,
+				91FB63BC1BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.m */,
+				91FB63BD1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.h */,
+				91FB63BE1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.m */,
+			);
+			name = KCRefresh;
+			path = ../KCRefresh;
+			sourceTree = "<group>";
+		};
+		91FB63A51BB27E31001EC0EA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				91FB63A61BB27E31001EC0EA /* UIView+KC.h */,
+				91FB63A71BB27E31001EC0EA /* UIView+KC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		91FB63A91BB27E31001EC0EA /* KCPagingRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				91FB63AA1BB27E31001EC0EA /* KCPagingIndicatorView.h */,
+				91FB63AB1BB27E31001EC0EA /* KCPagingIndicatorView.m */,
+				91FB63AC1BB27E31001EC0EA /* KCPagingRefreshFooter.h */,
+				91FB63AD1BB27E31001EC0EA /* KCPagingRefreshFooter.m */,
+				91FB63AE1BB27E31001EC0EA /* KCPagingRefreshHeader.h */,
+				91FB63AF1BB27E31001EC0EA /* KCPagingRefreshHeader.m */,
+				91FB63B01BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.h */,
+				91FB63B11BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.m */,
+				91FB63B21BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.h */,
+				91FB63B31BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.m */,
+			);
+			path = KCPagingRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,9 +331,9 @@
 				914491E91BAEAB1C004F7EA5 /* 4.jpg in Resources */,
 				914491E71BAEAB1C004F7EA5 /* 2.jpg in Resources */,
 				91768D381BAE937F00B2C7BF /* LaunchScreen.storyboard in Resources */,
+				91FB63C01BB27E31001EC0EA /* KCFramework.bundle in Resources */,
 				914491EA1BAEAB1C004F7EA5 /* 5.jpg in Resources */,
 				914491EB1BAEAB1C004F7EA5 /* 6.jpg in Resources */,
-				914491F11BAEBE2A004F7EA5 /* KCFramework.bundle in Resources */,
 				914491EF1BAEAB1C004F7EA5 /* 10.jpg in Resources */,
 				914491DB1BAEA9F2004F7EA5 /* Persons.plist in Resources */,
 				91768D351BAE937F00B2C7BF /* Assets.xcassets in Resources */,
@@ -348,24 +349,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914491BE1BAE9981004F7EA5 /* KCPagingIndicatorView.m in Sources */,
-				913E71521BB151910027ECC7 /* UIScrollView+KCVerticalPagingRefresh.m in Sources */,
-				914491C31BAE9981004F7EA5 /* KCRefreshHeader.m in Sources */,
-				914491C41BAE9981004F7EA5 /* UIScrollView+KCPagingRefresh.m in Sources */,
-				914491BF1BAE9981004F7EA5 /* KCPagingRefreshFooter.m in Sources */,
-				914491C11BAE9981004F7EA5 /* KCRefreshComponent.m in Sources */,
-				914491C01BAE9981004F7EA5 /* KCPagingRefreshHeader.m in Sources */,
 				914491CC1BAEA723004F7EA5 /* KCPagingViewController.m in Sources */,
 				913E71491BB14C190027ECC7 /* KCVerticalPagingViewController.m in Sources */,
+				91FB63C61BB27E31001EC0EA /* KCRefreshComponent.m in Sources */,
+				91FB63CA1BB27E31001EC0EA /* UIScrollView+KCVerticalPagingRefresh.m in Sources */,
+				91FB63C31BB27E31001EC0EA /* KCPagingRefreshHeader.m in Sources */,
 				914491D21BAEA756004F7EA5 /* AppDelegate.m in Sources */,
+				91FB63C91BB27E31001EC0EA /* UIScrollView+KCPagingRefresh.m in Sources */,
 				913E715B1BB180BE0027ECC7 /* KCMainTableViewController.m in Sources */,
-				914491C21BAE9981004F7EA5 /* KCRefreshFooter.m in Sources */,
-				914491BD1BAE9981004F7EA5 /* UIView+KC.m in Sources */,
+				91FB63C41BB27E31001EC0EA /* KCVerticalPagingRefreshFooter.m in Sources */,
+				91FB63C11BB27E31001EC0EA /* KCPagingIndicatorView.m in Sources */,
+				91FB63C71BB27E31001EC0EA /* KCRefreshFooter.m in Sources */,
+				91FB63BF1BB27E31001EC0EA /* UIView+KC.m in Sources */,
 				914491D61BAEA9CC004F7EA5 /* KCPersonService.m in Sources */,
+				91FB63C21BB27E31001EC0EA /* KCPagingRefreshFooter.m in Sources */,
 				913E71551BB170660027ECC7 /* KCCardView.m in Sources */,
-				913E71581BB179B90027ECC7 /* KCVerticalPagingRefreshFooter.m in Sources */,
 				914491D31BAEA756004F7EA5 /* main.m in Sources */,
-				913E714C1BB150220027ECC7 /* KCVerticalPagingRefreshHeader.m in Sources */,
+				91FB63C81BB27E31001EC0EA /* KCRefreshHeader.m in Sources */,
+				91FB63C51BB27E31001EC0EA /* KCVerticalPagingRefreshHeader.m in Sources */,
 				914491D91BAEA9D7004F7EA5 /* KCPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
