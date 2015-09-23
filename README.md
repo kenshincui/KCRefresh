@@ -131,4 +131,5 @@ __效果__
 
 ![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/VerticalPagingRefresh.gif?raw=true)
 
-
+## 博客
+欢迎访问本人博客：[Kenshin Cui's Blog](http://www.cnblogs.com/kenshincui/)
