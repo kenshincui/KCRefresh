@@ -1,5 +1,6 @@
 # KCRefresh
-![]()
+![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/cmjLogo120.png?raw=true)  
+
 KCRefresh 是一个高可扩展性的刷新控件，通过它可以快速实现各类刷新翻页效果。目前普通的下拉刷新、上拉加载控件已经很多，因此在此控件中默认并没有实现这些子控件，而是重点放到了一些其他刷新效果上面，例如淘宝头条和网易云阅读的两类分页刷新效果上面。但是注意，使用KCRefresh并不是不能实现普通的刷新效果，应该说有了KCRefresh实现起来并不难（后面有时间也会加上普通的刷新效果）。   
 KCRefresh并不是简单提供集中刷新效果，这不是此控件的目的，控件关键还是放在可扩展性上，因为实际开发中往往不能使用“拿来主义”，个性化的需求随处可见。利用KCRefresh基类KCRefreshComponent极其直接子类KCRefreshHeader、KCRefreshFooter几乎可以实现任何刷新效果（包括普通刷新和个性化刷新，例如目前已经实现的子类KCPagingRefreshHeader、KCPagingRefreshFooter、KCVerticalPagingRefreshHeader、KCVerticalPagingRefreshFooter），这才是KCRefresh存在的最主要的目的。   
 ## 主要的类
@@ -65,8 +66,8 @@ KCRefreshFooter：刷新尾部控件抽象，继承于KCRefreshComponent，重�
 	    }];
 }
 ```
-*效果*
-
+** 效果 **
+![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/PagingRefresh.gif?raw=true)
 ### 类似于网易云阅读的分页刷新
 和上面的分页刷新效果不同的是无论是下拉刷新还是上拉刷新均不会弹回到原来的位置而是直接执行翻页效果，并此类刷新不像普通的刷新，它只有两种状态切换。
 ```objc
@@ -125,7 +126,7 @@ KCRefreshFooter：刷新尾部控件抽象，继承于KCRefreshComponent，重�
 	    }];
 }
 ```
-*效果*
-
+** 效果 **
+![](https://github.com/kenshincui/KCRefresh/blob/master/KCRefreshDemo/KCRefreshDemo/Resources/VerticalPagingRefresh.gif?raw=true)
 
 
