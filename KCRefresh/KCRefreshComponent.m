@@ -11,6 +11,9 @@
 @interface KCRefreshComponent()
 //UIScrollView手势，避免UIScrollView被释放后移除KVO报错
 @property (strong,nonatomic) UIPanGestureRecognizer *panGestureRecognizer;
+
+//是否已经开始拖拽，默认为NO
+@property (assign,nonatomic) BOOL startDrag;
 @end
 
 @implementation KCRefreshComponent
@@ -31,6 +34,7 @@
     if (newSuperview) {
         self.scrollView=(UIScrollView *)newSuperview;
         self.originEdgeInsets=self.scrollView.contentInset;
+        _originOffsetY = self.scrollView.contentOffset.y;
         [self addObserver];
     }
 }
@@ -38,17 +42,24 @@
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
     if([keyPath isEqualToString:@"contentOffset"]){ //偏移量发生变化
         CGPoint offset=[[change valueForKey:@"new"] CGPointValue];
+        if (!self.startDrag) {
+            _originOffsetY = offset.y;
+        }
         [self contentOffsetChangeWithY:offset.y];
 //    }else if([keyPath isEqualToString:@"pan.state"]){ //拖拽状态发生变化
     }else if([keyPath isEqualToString:@"state"]){ //拖拽状态发生变化
+        self.startDrag = YES;
         NSInteger panState=[[change valueForKey:@"new"] integerValue];
-        self.panState=panState;
+        _panState=panState;
         [self panStateChangeWithState:panState];
     }else if([keyPath isEqualToString:@"contentSize"]){
         CGSize contentSize=[[change valueForKey:@"new"] CGSizeValue];
         [self contentSizeChangeWithHeight:contentSize.height];
     }else if([keyPath isEqualToString:@"contentInset"]){
         UIEdgeInsets edgeInsets=[[change valueForKey:@"new"] UIEdgeInsetsValue];
+        if (!self.startDrag) {
+            self.originEdgeInsets = edgeInsets;
+        }
         [self contentInsetChangeWithTop:edgeInsets.top bottom:edgeInsets.bottom];
     }
 }
@@ -102,6 +113,7 @@
 
 #pragma mark - 公共方法
 -(void)endRefreshing{
+    //注意对于有些情况下结束刷新后需要延迟一会才能变成空闲状态（此情况下在回到原来位置的过程中算作刷新），此时需要重写此方法
     self.refreshState=KCRefreshStateIdle;
 }
 

@@ -9,13 +9,15 @@
 #import "KCRefreshFooter.h"
 #import "UIView+KC.h"
 
+static const CGFloat kBackOriginAnimationDuration = 0.3;
+
 @implementation KCRefreshFooter
 
 #pragma mark - 生命周期及其基类方法
 - (void)contentOffsetChangeWithY:(CGFloat)offsetY {
 	[super contentOffsetChangeWithY:offsetY];
 	CGFloat offset = offsetY;
-	if (offset + self.scrollView.height - self.scrollView.contentSize.height < 0) {
+	if (offset + self.scrollView.height - self.scrollView.contentSize.height < 0 || self.scrollView.contentSize.height == 0) {
 		return;
 	}
 	self.offsetPercent = (offset + self.scrollView.height - self.scrollView.contentSize.height) / kKCRefreshComponentHeight;
@@ -26,8 +28,11 @@
 		} else {
 			self.refreshState = 2;
 		}
-	} else if (self.panState == 3 && self.offsetPercent < 0.1) { //松开刷新回到原始位置
-		self.refreshState = 1;
+	} else if (self.panState == 3 && self.offsetPercent < 0.1 && self.refreshState != 1) { //松开刷新回到原始位置
+											       //		self.refreshState = 1;
+		dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(kBackOriginAnimationDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+		  self.refreshState = 1;
+		});
 	}
 }
 
@@ -72,11 +77,25 @@
 		      [self executeBlock];
 		    }];
 	} else if (refreshState == KCRefreshStateIdle) {
-		[UIView animateWithDuration:0.3
+		[UIView animateWithDuration:kBackOriginAnimationDuration
 				 animations:^{
 				   self.scrollView.contentInset = self.originEdgeInsets;
 				 }];
 	}
+}
+
+/**
+ *  结束刷新，注意这里重写了父类的处理，将松开之后的0.3秒内算作刷新状态而非空闲状态
+ */
+- (void)endRefreshing {
+	[UIView animateWithDuration:kBackOriginAnimationDuration
+	    animations:^{
+	      self.scrollView.contentInset = self.originEdgeInsets;
+	    }
+	    completion:^(BOOL finished) {
+	      self.refreshState = 1;
+	      self.offsetPercent = 0.0; //避免再次上拉比例不正确造成自动加载
+	    }];
 }
 
 @end

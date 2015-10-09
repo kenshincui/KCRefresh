@@ -9,6 +9,7 @@
 #import "KCMainTableViewController.h"
 #import "KCPagingViewController.h"
 #import "KCVerticalPagingViewController.h"
+#import "KCNormalRefreshViewController.h"
 
 static NSString *const cellIdentifier = @"myTableViewCell";
 @interface KCMainTableViewController ()
@@ -40,7 +41,10 @@ static NSString *const cellIdentifier = @"myTableViewCell";
 
 #pragma mark - UITableView代理方法
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	if (indexPath.row == 0) {
+    if (indexPath.row == 0){
+        KCNormalRefreshViewController *normalController = [[KCNormalRefreshViewController alloc]init];
+        [self.navigationController pushViewController:normalController animated:YES];
+    } else if (indexPath.row == 1) {
 		KCPagingViewController *pagingController = [[KCPagingViewController alloc] init];
 		[self.navigationController pushViewController:pagingController animated:YES];
 	} else {
@@ -55,7 +59,7 @@ static NSString *const cellIdentifier = @"myTableViewCell";
  */
 - (NSArray *)data {
 	if (!_data) {
-		_data = [NSArray arrayWithObjects:@"类似于淘宝头条的分页刷新", @"类似于网易云阅读的分页刷新", nil];
+		_data = [NSArray arrayWithObjects:@"上拉刷新和下拉加载",@"类似于淘宝头条的分页刷新", @"类似于网易云阅读的分页刷新", nil];
 	}
 	return _data;
 }

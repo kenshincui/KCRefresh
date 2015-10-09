@@ -85,7 +85,7 @@ typedef NS_ENUM(NSInteger, KCRefreshState) {
 /**
  *  当前拖拽状态
  */
-@property(assign, nonatomic) NSUInteger panState;
+@property(assign, nonatomic,readonly) NSUInteger panState;
 
 #pragma mark - 公共方法
 /**
@@ -128,7 +128,10 @@ typedef NS_ENUM(NSInteger, KCRefreshState) {
  *  UIScrollView非刷新状态下的边距（刷新时会KCRefreshComponent会自动将其增大）
  */
 @property(assign, nonatomic) UIEdgeInsets originEdgeInsets;
-
+/**
+ *  UIScrollView起始偏移量（主要考虑到UIScrollView及子控件在iOS7及其以后版本在存在UINavigationBar的情况下发生偏移的情况）
+ */
+@property (assign,nonatomic,readonly) CGFloat originOffsetY;
 #pragma mark - 调用者写属性
 /**
  *  刷新时的回调方法
