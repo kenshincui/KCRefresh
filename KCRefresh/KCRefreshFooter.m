@@ -43,6 +43,7 @@ static const CGFloat kBackOriginAnimationDuration = 0.3;
 	} else if (panState == 3) {
 		if (self.offsetPercent >= 1.0) {
 			self.refreshState = 3;
+            self.offsetPercent = 0.0;
 		} else {
 			self.refreshState = 1;
 		}
